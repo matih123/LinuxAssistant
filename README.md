@@ -10,6 +10,7 @@ App contains modules:
 * automated screenshot
 
 Work in progress:
+* speedtest in general panel
 * websites status
 * linux services status
 * packages updates
