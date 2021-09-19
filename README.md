@@ -16,7 +16,7 @@ Work in progress:
 
 App connects to ssh using paramiko python module and reads information using linux commands from utils.py file.
 
-Raspberry module can be turned on when connecting to raspberry pi with bme280 sensor. Managing script has to be placed in Desktop/bme.py (path after logging to ssh) and has to return temperature, pressure, humidity separated by new line.
+Raspberry module can be turned on when connecting to raspberry pi with bme280 and hc-sr04 sensors. Managing script for bme280 has to be placed in Desktop/bme.py (path after logging to ssh) and has to return temperature, pressure, humidity separated by new line. Managing script for hc-sr04 has to be placed in Desktop/hc.py (path after logging to ssh) and what it returns is directly displayed in DISTANCE box.
 
 # Setup
 App needs following android permissions: INTERNET, ACCESS_NETWORK_STATE, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE.
