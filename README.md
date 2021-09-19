@@ -8,9 +8,10 @@ App contains modules:
 * general information
 * raspberrypi information
 * automated screenshot
-* websites status (work in progress)
-* linux services status (work in progress)
-* packages updates (work in progress)
+Work in progress:
+* websites status
+* linux services status
+* packages updates
 
 # Setup
 App needs following android permissions: 
