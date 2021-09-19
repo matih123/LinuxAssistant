@@ -1,11 +1,11 @@
 # LinuxAssistant
-Available on android (> 4.0) and linux.
+Available on android (> 4.0).
 
 ## Download .apk from 
 https://mega.nz/folder/IEN2FRiK#Wchyr5oqr640kB_sxA5yDw
 
 ## General information
-Linux and android app made in python kivy for managing linux servers.
+Android app made in python kivy for managing linux servers.
 
 App contains modules:
 * general information
@@ -25,7 +25,7 @@ Raspberry module can be turned on when connecting to raspberry pi with bme280 an
 ## Setup
 App needs following android permissions: INTERNET, ACCESS_NETWORK_STATE, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE.
 
-After first run config file will be created (on android: /storage/emulated/0/Documents/config.ini).
+After first run config file will be created in /storage/emulated/0/Documents/config.ini.
 
 In config [SSH] section login credentials to your linux server should be entered.
 
