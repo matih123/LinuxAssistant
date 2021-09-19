@@ -8,6 +8,7 @@ App contains modules:
 * general information
 * raspberrypi information
 * automated screenshot
+
 Work in progress:
 * websites status
 * linux services status
