@@ -53,7 +53,7 @@ class Ssh():
             self.stdin, self.stdout, self.stderr = self.client.exec_command('curl ipinfo.io/ip')
 
         elif command == 'sensor':
-            self.stdin, self.stdout, self.stderr = self.client.exec_command('python Desktop/bme80.py')
+            self.stdin, self.stdout, self.stderr = self.client.exec_command('python Desktop/bme.py')
 
     def format_sensor(self):
         self.exec('sensor')
