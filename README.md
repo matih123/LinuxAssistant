@@ -26,4 +26,5 @@ After first run config file will be created (on android: /storage/emulated/0/Doc
 
 In config [SSH] section login credentials to your linux server should be entered.
 
-# Overview
+## Overview
+![app overview image](img/overview.jpg?raw=true "Title")
