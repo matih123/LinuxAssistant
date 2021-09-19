@@ -15,7 +15,7 @@ Work in progress:
 * packages updates
 
 # Setup
-App needs following android permissions: 
+App needs following android permissions: INTERNET, ACCESS_NETWORK_STATE, READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE.
 
 After first run config file will be created (on android: /storage/emulated/0/Documents/config.ini).
 
