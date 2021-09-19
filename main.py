@@ -82,10 +82,15 @@ class MainApp(MDApp):
 
         def update_raspberry(self, x):
                 data = self.ssh.format_sensor()
+                degree_sign = u'\N{DEGREE SIGN}'
 
-                self.info_values['temperature'].text = f'{data[0]} C'
+                self.ssh.exec('hc-sensor')
+                distance = self.ssh.get()[0]
+
+                self.info_values['temperature'].text = f'{data[0]} {degree_sign}C'
                 self.info_values['pressure'].text = f'{int(float(data[1]))} hPa'
                 self.info_values['humidity'].text = f'{round(float(data[2]), 2)}%'
+                self.info_values['distance'].text = distance
 
         def hide(self):
                 Clock.unschedule(self.update)

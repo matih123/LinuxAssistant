@@ -52,11 +52,14 @@ class Ssh():
         elif command == 'ip':
             self.stdin, self.stdout, self.stderr = self.client.exec_command('curl ipinfo.io/ip')
 
-        elif command == 'sensor':
+        elif command == 'bme-sensor':
             self.stdin, self.stdout, self.stderr = self.client.exec_command('python Desktop/bme.py')
 
+        elif command == 'hc-sensor':
+            self.stdin, self.stdout, self.stderr = self.client.exec_command('python Desktop/hc.py')
+
     def format_sensor(self):
-        self.exec('sensor')
+        self.exec('bme-sensor')
         temperature, pressure, humidity = self.get()
         return [str(round(float(temperature), 1)), pressure, humidity]
 
