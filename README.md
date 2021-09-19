@@ -25,3 +25,5 @@ App needs following android permissions: INTERNET, ACCESS_NETWORK_STATE, READ_EX
 After first run config file will be created (on android: /storage/emulated/0/Documents/config.ini).
 
 In config [SSH] section login credentials to your linux server should be entered.
+
+# Overview
